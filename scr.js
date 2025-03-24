@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", function (){
     vc = parseInt(vc) + 1;
   }
   
-  // 更新 localStorage
+  // 更新 localStorage 
   localStorage.setItem('visitCount', vc);
   
   // 顯示訪問次數
