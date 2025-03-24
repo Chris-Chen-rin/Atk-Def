@@ -1,6 +1,6 @@
-console.log("scr.js 載入成功！");
-
 document.addEventListener("DOMContentLoaded", function (){
+  console.log("scr.js 載入成功！");
+  
   let vc = localStorage.getItem('visitCount');
   
   if (vc === null) {
