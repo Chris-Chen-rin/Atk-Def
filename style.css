@@ -20,12 +20,18 @@ body, html {
 }
 
 #page-container {
-  position: relative;
-  min-height: 100vh;
+    position: relative;
+    min-height: 100vh;
 }
 
 #content-wrap {
-  padding-bottom: 2.5rem;    /* Footer height */
+    padding-bottom: 2.5rem;    /* Footer height */
+    margin-top: 80px; /* 讓主要內容不會被固定標題遮住 */
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    background-color: #E6E6FA66
 }
 
 h1, .visit-counter {
@@ -34,12 +40,7 @@ h1, .visit-counter {
 }
 
 main {
-    margin-top: 80px; /* 讓主要內容不會被固定標題遮住 */
-    padding: 20px;
-    display: flex;
-    justify-content: space-between;
-    gap: 10px;
-    background-color: #E6E6FA66
+    
 }
 
 #selfie {
