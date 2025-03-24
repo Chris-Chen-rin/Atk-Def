@@ -30,9 +30,11 @@ main {
     display: flex;
     justify-content: space-between;
     gap: 10px;
+    background-color: #E6E6FA66
 }
 
 #selfie {
     margin-top: 8px;
     border: 6px chocolate solid;
 }
+
