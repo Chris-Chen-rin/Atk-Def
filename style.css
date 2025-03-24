@@ -6,11 +6,9 @@ body, html {
 .top-header {
     background-color: black; /* 設定黑色背景 */
     color: white; /* 讓文字變成白色 */
-    text-align: center; /* 文字置中 */
-    padding: 20px 0; /* 設定內邊距 */
+    padding: 8px 0; /* 設定內邊距 */
     font-size: 24px;
     font-weight: bold;
-    position: fixed; /* 讓標題固定在畫面最上方 */
     width: 100%;
     top: 0;
     left: 0;
@@ -18,6 +16,6 @@ body, html {
 }
 
 main {
-    margin-top: 80px; /* 讓主要內容不會被固定標題遮住 */
+    margin-top: 12px; /* 讓主要內容不會被固定標題遮住 */
     padding: 20px;
 }
