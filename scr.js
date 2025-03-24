@@ -13,3 +13,16 @@ let visitCount = localStorage.getItem('visitCount');
 
 // 将计数器值显示在页面上
 document.getElementById('visitCounter').textContent =  visitCount ;
+
+function addComment() {
+            let input = document.getElementById("commentInput");
+            let commentText = input.value.trim();
+            if (commentText === "") return;
+            
+            let commentDiv = document.createElement("div");
+            commentDiv.classList.add("comment");
+            commentDiv.innerText = commentText;
+            
+            document.getElementById("commentSection").appendChild(commentDiv);
+            input.value = ""; 
+        }
