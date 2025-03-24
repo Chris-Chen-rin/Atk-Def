@@ -1,21 +1,15 @@
-document.addEventListener("DOMContentLoaded", update);
-
-function update(){
-  console.log("scr.js 載入成功！");
-  
-  const vc = localStorage.getItem('visitCount');
-  
-  if (vc === null) {
-    vc = 1;
-  } else {
-    vc = parseInt(vc) + 1;
-  }
-  
-  // 更新 localStorage 
-  localStorage.setItem('visitCount', vc);
-  
-  // 顯示訪問次數
-  document.getElementById('visitCounter').textContent = vc;
+// 检查localStorage中是否已经有一个名为"visitCount"的键
+if (localStorage.getItem('visitCount') === null) {
+    // 如果没有，说明是第一次访问，将计数器设置为1
+    localStorage.setItem('visitCount', 1);
+} else {
+    // 如果有，说明不是第一次访问，将计数器加1
+    let currentCount = parseInt(localStorage.getItem('visitCount'), 10);
+    localStorage.setItem('visitCount', currentCount + 1);
 }
 
-// hello?
+// 获取更新后的计数器值
+let visitCount = localStorage.getItem('visitCount');
+
+// 将计数器值显示在页面上
+document.getElementById('visitCounter').textContent =  visitCount ;
