@@ -10,4 +10,4 @@ if (vc === null) {
 localStorage.setItem("visitCount", vc);
 
 // 顯示訪問次數
-document.getElementById("visitCounter").textContent = vc;
+document.getElementById("visitCounter").textContent = visitCount;
