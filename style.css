@@ -21,6 +21,6 @@ body, html {
 
 
 main {
-    margin-top: 12px; /* 讓主要內容不會被固定標題遮住 */
+    margin-top: 80px; /* 讓主要內容不會被固定標題遮住 */
     padding: 20px;
 }
