@@ -40,8 +40,9 @@ h1, .visit-counter {
     padding-right: 150px;
 }
 
-main {
-    
+#3row {
+    display: flex;
+    justify-content: flex-start;
 }
 
 #selfie {
