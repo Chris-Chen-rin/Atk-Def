@@ -31,3 +31,8 @@ main {
     justify-content: space-between;
     gap: 10px;
 }
+
+#selfie {
+    margin-top: 8px;
+    border: 6px chocolate solid;
+}
