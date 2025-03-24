@@ -20,5 +20,5 @@ document.addEventListener("DOMContentLoaded", function (){
   } else {
       console.error("錯誤：找不到 ID 為 'visitCounter' 的元素！");
   }
-}
+});
 
