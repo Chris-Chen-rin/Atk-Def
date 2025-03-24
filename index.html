@@ -13,21 +13,23 @@
             <div class="visit-counter">瀏覽次數：<span id="visitCounter"> 0 </span></div>
         </header>
         
-        <main class="writing">
-            <p>這是我的網站</p>
-            <u1>
-                <li>學號:B11901083</li>
-            </u1>
+        <main>
+            <div class="writing">
+                <p>這是我的網站</p>
+                <u1>
+                    <li>學號:B11901083</li>
+                </u1>
+            </div>
+
+            <div class="broad">
+                <h2>留言板</h2>
+                <textarea id="commentInput" rows="4" cols="50" placeholder="輸入你的留言..."></textarea> 
+                <br>
+                <button onclick="addComment()">送出留言</button>
+                <div id="commentSection"></div>
+            </div>
         </main>
 
-        <div class="broad">
-            <h2>留言板</h2>
-            <textarea id="commentInput" rows="4" cols="50" placeholder="輸入你的留言..."></textarea> 
-            <br>
-            <button onclick="addComment()">送出留言</button>
-            <div id="commentSection"></div>
-        </div>
-        
     </body>
     <script src="scr.js"></script>
 </html>
