@@ -40,9 +40,9 @@ h1, .visit-counter {
     padding-right: 150px;
 }
 
-#3row {
-    display: flex;
-    justify-content: space-around;
+#threerow {
+    display: flex; /* 使用 Flexbox 排版 */
+    justify-content: space-around; /* 左右對齊 */
 }
 
 #selfie {
