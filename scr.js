@@ -1,4 +1,4 @@
-let vc = localStorage.getItem("visitCount");
+let vc = localStorage.getItem('visitCount');
 
 if (vc === null) {
   vc = 1;
@@ -7,7 +7,7 @@ if (vc === null) {
 }
 
 // 更新 localStorage
-localStorage.setItem("visitCount", vc);
+localStorage.setItem('visitCount', vc);
 
 // 顯示訪問次數
-document.getElementById("visitCounter").textContent = visitCount;
+document.getElementById('visitCounter').textContent = visitCount;
