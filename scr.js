@@ -1,4 +1,6 @@
-document.addEventListener("DOMContentLoaded", function (){
+document.addEventListener("DOMContentLoaded", update);
+
+function update(){
   console.log("scr.js 載入成功！");
   
   let vc = localStorage.getItem('visitCount');
@@ -20,6 +22,6 @@ document.addEventListener("DOMContentLoaded", function (){
   } else {
       console.error("錯誤：找不到 ID 為 'visitCounter' 的元素！");
   }
-});
+}
 
 // hello?
