@@ -3,7 +3,7 @@ let vc = localStorage.getItem("visitCount");
 if (vc === null) {
   vc = 1;
 } else {
-  vc = parseInt(visitCount) + 1;
+  vc = parseInt(vc) + 1;
 }
 
 // 更新 localStorage
