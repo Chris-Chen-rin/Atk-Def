@@ -1,6 +1,8 @@
 h1 {
   color: white;
   margin: 0;
+  border-color: black;
+  border-style: solid;
 }
 
 p {
