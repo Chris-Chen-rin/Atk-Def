@@ -33,6 +33,7 @@ h1, .visit-counter {
 #selfie {
     margin-top: 8px;
     border: 6px chocolate solid;
+    bottom: 2.5rem;
 }
 
 #footer {
