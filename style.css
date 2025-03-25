@@ -25,15 +25,6 @@ main {
     width: 100%;
 }
 
-#wrap {
-    padding-bottom: 2.5rem;    /* Footer height */
-    display: flex;
-    justify-content: space-between;
-    gap: 10px;
-    background-color: #E6E6FA66 
-    width: 100%;
-}
-
 h1, .visit-counter {
     padding-left: 150px;
     padding-right: 150px;
