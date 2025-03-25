@@ -19,14 +19,6 @@ body, html {
     z-index: 1000;
 }
 
-#page-container {
-    position: relative;
-    display: flex;
-    justify-content: space-between;
-    min-height: 100vh;
-    width: 100%;
-}
-
 #wrap {
     padding-bottom: 2.5rem;    /* Footer height */
     margin-top: 80px; /* 讓主要內容不會被固定標題遮住 */
