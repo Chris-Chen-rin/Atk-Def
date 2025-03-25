@@ -36,6 +36,10 @@ h1, .visit-counter {
     bottom: 2.5rem;
 }
 
+#broad, #writing {
+    bottom: 2.5rem;
+}
+
 #footer {
     background-color: black;
     color: white;
