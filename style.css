@@ -23,9 +23,6 @@ main {
     margin-top: 80px; /* 讓主要內容不會被固定標題遮住 */
     padding: 20px;
     width: 100%;
-}
-
-#warp {
     display: flex;
     justify-content: space-between;
 }
