@@ -37,6 +37,10 @@ body, html {
      margin-top: 8px;
      border: 6px chocolate solid;
  }
+
+#writing {
+     margin-left: 12px;
+}
  
  #footer {
      background-color: black;
