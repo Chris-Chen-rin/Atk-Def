@@ -25,6 +25,11 @@ main {
     width: 100%;
 }
 
+#warp {
+    display: flex;
+    justify-content: space-between;
+}
+
 h1, .visit-counter {
     padding-left: 150px;
     padding-right: 150px;
